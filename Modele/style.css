@@ -1,0 +1,112 @@
+@charset utf-8;
+
+html {
+	font-family: 'Calibri', sans-serif;
+	padding: 0px;
+}
+
+img {
+	padding-top: 0px !important;
+}
+
+#menu li {
+		list-style-type: none;
+		list-style-image:none;
+		float: left ; 
+		text-align: center;
+    width: 200px ; 
+    border: 1px solid #600 ; 
+    margin-right: 1px ; 
+    color: #fff ; 
+    background: #7B9DCA ;
+}
+
+#menu li a , #categories li a {
+		text-decoration:none;
+}
+
+.header, .body {
+	display: inline-block;
+}
+
+.header {
+	width: 20%;
+	float: left;
+}
+
+.body {
+	width: 80%;
+	float: right;
+}
+
+.body h1 {
+	color: #7B9DCA;
+}
+
+.contenu {
+	padding-left: 20px;
+}
+
+.formu {
+	background-color: #7B9DCA /* bleu marin clair */;
+	color: white;
+	padding: 3%;
+	float: left;
+}
+
+.saisie-left, .saisie-right {
+	display: inline-grid;
+}
+
+.saisie > .saisie-right {
+	padding-left: 25px;
+}
+
+.fraisforfait > .saisie-right {
+	padding-left: 50px;
+}
+
+.saisie-right > .info, 
+.saisie-right > .infoinput {
+	padding-left: 110px;
+}
+
+#midi, #nuit {
+	width: 35px;
+}
+
+#etape, #km {
+	width: 60px;
+}
+
+#num, #mois, #annee {
+	width: 45px;
+}
+
+#date, .date {
+	width: 100px;
+}
+
+#libelle, .libelle {
+	width: 200px;
+}
+
+#montant, .montant {
+	width: 50px;
+}
+
+.date,
+.libelle,
+.montant {
+	text-align: center;
+}
+
+.montant {
+	padding-left: 20px;
+}
+
+div.info, div.infoinput {
+	display: inline-flex;
+}
+
+/* taille des inputs type text par défaut : 143px; */
